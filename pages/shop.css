@@ -1,0 +1,26 @@
+.catalog {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  justify-items: center;
+  margin-bottom: 1px;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.product img {
+  margin-bottom: 10px;
+}
+
+.product h2, .product h3 {
+  margin: 5px 0;
+}
+
+.button-box-df {
+  margin-top: 10px;
+}

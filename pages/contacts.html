@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="../default.css">
+  <meta charset="UTF-8">
+  <title>Contacts</title>
+</head>
+<body>
+
+<div class="ctext-df">
+  <a href="../index.html">
+    <img src="../images/logo.png" alt="Gaity shoes brand" height="100">
+  </a>
+</div>
+
+<div class="cmenu-box-indent-df">
+  <a href="../index.html" class="button-df">Home</a>
+  <a href="../pages/about.html" class="button-df">About Us</a>
+  <a href="../pages/news.html" class="button-df">News</a>
+  <a href="../pages/contacts.html" class="button-df">Contacts</a>
+  <a href="../pages/shop.html" class="button-df">Shop</a>
+</div>
+
+<div class="item-df">
+
+  <h1>Available around the world via international version of the website</h1>
+  <h2>Originally from Ukraine</h2>
+
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5444726.637349571!2d25.90427651008118!3d48.21513034211093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d1d9c154700e8f%3A0x1068488f64010!2z0KPQutGA0LDRl9C90LA!5e0!3m2!1suk!2sua!4v1731256108028!5m2!1suk!2sua"
+    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</div>
+
+<div class="item-df">
+
+  <h2>Have questions?</h2>
+  <h3>Send us a message</h3>
+</div>
+
+
+<div class="item-df">
+
+  <form class="item-df" action="/submit" method="POST">
+    <fieldset class="form-df">
+
+    <div class="item-df">
+      <label for="fname">First name:</label>
+      <input type="text" id="fname" name="firstname" placeholder="Type your first name here">
+    </div>
+
+    <div class="item-df">
+      <label for="lname">Last name:</label><br>
+      <input type="text" id="lname" name="lastname" placeholder="Type your last name here">
+    </div>
+
+    <div class="item-df">
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" placeholder="Type your email here">
+    </div>
+
+    <div class="item-df">
+      <label for="region">Select your region to check free shipping availability:</label>
+      <select id="region" name="Region">
+        <option value="none">None</option>
+        <option value="Ukraine">Ukraine</option>
+        <option value="Germany">Germany</option>
+        <option value="France">France</option>
+        <option value="Austria">Austria</option>
+        <option value="Italy">Italy</option>
+        <option value="Spain">Spain</option>
+        <option value="United Kingdoms">United Kingdoms</option>
+        <option value="Sweden">Sweden</option>
+        <option value="Greece">Greece</option>
+        <option value="United States of America">United States of America</option>
+        <option value="Brasil">Brasil</option>
+        <option value="United Arab Emirates">United Arab Emirates</option>
+        <option value="Saudi Arabia">Saudi Arabia</option>
+        <option value="Algeria">Algeria</option>
+        <option value="Australia">Australia</option>
+      </select>
+    </div>
+
+    <div class="item-df">
+      <br>
+      <label for="acceptTerms">Accept our terms and conditions:</label>
+      <input type="checkbox" id="acceptTerms" name="terms">
+      <label for="createAccount">Create Gaity account to receive discounts</label>
+      <input type="checkbox" id="createAccount" name="createAccount">
+      <label for="question">Question:</label>
+      <textarea id="question" name="question" placeholder="Type your question here"></textarea>
+      <input type="submit" value="Submit">
+    </div>
+    </fieldset>
+  </form>
+</div>
+
+</body>
+</html>

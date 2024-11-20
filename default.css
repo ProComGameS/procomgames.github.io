@@ -1,0 +1,96 @@
+.cmenu-box-indent-df{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  gap: 30px;
+  color: inherit;
+  text-decoration: none;
+
+}
+
+.cmenu-box-df{
+
+  margin-bottom: 1px;
+  display: flex;
+  justify-content: center;
+  color: inherit;
+  text-decoration: none;
+
+}
+
+.ctext-df{
+
+  margin-bottom: 1px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.ctext-indent-df{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  gap: 30px;
+
+}
+
+.image-df{
+
+  display: block;
+  margin: auto;
+  margin-top: 15px;
+  border-radius: 20px;
+  border: 5px solid transparent;
+
+}
+
+.button-df{
+  background-color: gray;
+  border: 2px;
+  border-radius: 5px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding: 5px 25px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.button-box-df{
+
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+}
+
+.item-df {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.form-df{
+  background-color: rgba(74, 74, 74, 0.17);
+  border: 2px;
+  border-radius: 5px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding: 5px 25px;
+  color: inherit;
+  text-decoration: none;
+}

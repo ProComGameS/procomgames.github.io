@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="../default.css">
+  <meta charset="UTF-8">
+  <title>Order</title>
+</head>
+<body>
+
+<div class="ctext-df">
+  <a href="../index.html">
+    <img src="../images/logo.png" alt="Gaity shoes brand" height="100">
+  </a>
+</div>
+
+<div class="cmenu-box-indent-df">
+  <a href="../index.html" class="button-df">Home</a>
+  <a href="../pages/about.html" class="button-df">About Us</a>
+  <a href="../pages/news.html" class="button-df">News</a>
+  <a href="../pages/contacts.html" class="button-df">Contacts</a>
+  <a href="../pages/shop.html" class="button-df">Shop</a>
+</div>
+
+<div class="item-df">
+
+  <h1>Your order</h1>
+  <h2>Important! Your order can only be delivered to countries where free shipping is available.</h2>
+  <h2>Select the product and information needed to make an order.</h2>
+
+</div>
+
+  <form class="item-df" action="/submit" method="POST">
+    <fieldset class="form-df">
+    <div>
+      <label for="fname">First name:</label><br>
+      <input type="text" id="fname" name="firstname" placeholder="Type your first name here"><br>
+    </div>
+
+    <div>
+      <label for="lname">Last name:</label><br>
+      <input type="text" id="lname" name="lastname" placeholder="Type your last name here"><br>
+    </div>
+
+    <div>
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" placeholder="Type your email here"><br>
+    </div>
+
+    <div>
+      <label for="region">Select your region:</label>
+      <select id="region" name="Region">
+        <option value="Ukraine">Ukraine</option>
+        <option value="Germany">Germany</option>
+        <option value="France">France</option>
+        <option value="Austria">Austria</option>
+        <option value="Italy">Italy</option>
+        <option value="Spain">Spain</option>
+        <option value="United Kingdoms">United Kingdoms</option>
+        <option value="Sweden">Sweden</option>
+        <option value="Greece">Greece</option>
+        <option value="United States of America">United States of America</option>
+        <option value="Brasil">Brasil</option>
+        <option value="United Arab Emirates">United Arab Emirates</option>
+        <option value="Saudi Arabia">Saudi Arabia</option>
+        <option value="Algeria">Algeria</option>
+        <option value="Australia">Australia</option>
+      </select>
+    </div>
+
+    <div>
+      <br>
+      <label for="address">Delivery address:</label><br>
+      <textarea id="address" name="Address of delivery" placeholder="Type your address here"></textarea><br>
+
+      <label for="acceptTerms">Accept our terms and conditions:</label><br>
+      <input type="checkbox" id="acceptTerms" name="terms"><br>
+
+      <input type="submit" value="Submit">
+    </div>
+    </fieldset>
+  </form>
+
+</body>
+</html>
