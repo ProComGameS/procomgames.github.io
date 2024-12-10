@@ -113,6 +113,7 @@
   align-items: center;
   height: 250px;
   background-color: #34547A;
+  color: #FFFFFF;
 }
 
 .how{
@@ -164,9 +165,13 @@
 .footer-text{
   margin: 0;
   padding-top: 20px;
+  color: #FFFFFF;
+  font-size: 13px;
+  line-height: 21px;
 }
 
 .footer-text-name{
   padding-top: 50px;
   margin: 0;
+  color: #FFFFFF;
 }
