@@ -26,13 +26,6 @@
   font-weight: 500;
 }
 
-
-.first-screen{
-  width: 1920px;
-  height: 700px;
-  background-color: grey;
-}
-
 .item-list{
   list-style-type: none;
 }
@@ -53,7 +46,7 @@
 }
 
 .about-text{
- font-weight: 400;
+  font-weight: 400;
   font-size: 16px;
   margin: 0px;
   padding-bottom: 65px;
@@ -61,15 +54,18 @@
 
 .about-text2{
   display: flex;
-  align-items: center;
+  justify-content: center;
   font-weight: 400;
   font-size: 16px;
-  margin: 0px;
+  padding-inline: 300px;
+  padding-bottom: 100px;
 }
 
 .about-title{
   display: flex;
   justify-content: center;
+  font-weight: 500;
+  font-size: 32px;
 }
 
 .container-about{
@@ -89,4 +85,85 @@
   padding-block: 19px 20px;
   margin-bottom: 65px;
 
+}
+
+.container-work{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 49px;
+}
+
+.item-work{
+  width: 141px;
+  height: 50px;
+  background: left no-repeat url('./images/project-icon.svg');
+  padding: 70px;
+  font-size: 21px;
+  line-height: 24px;
+
+}
+
+.work{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  background-color: #34547A;
+}
+
+.how{
+  background-color: #EEEFF1;
+}
+
+.how-container{
+  width: 1150px;
+  height: 1004px;
+  margin-inline: auto;
+  margin: 0;
+}
+
+.how-title{
+  display: flex;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 32px;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  margin: 0;
+}
+
+.how-text{
+  display: flex;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 16px;
+  padding-inline: 300px;
+  padding-bottom: 57px;
+  margin: 0;
+}
+
+.how-video{
+  padding-bottom: 100px;
+  margin: 0;
+}
+
+.footer{
+  background-color: #34547A;
+}
+
+.footer-container{
+
+  width: 1150px;
+  height: 151px;
+}
+
+.footer-text{
+  margin: 0;
+  padding-top: 20px;
+}
+
+.footer-text-name{
+  padding-top: 50px;
+  margin: 0;
 }
