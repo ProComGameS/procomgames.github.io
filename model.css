@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 *{
   box-sizing: border-box;
   font-family: 'Roboto Light', sans-serif;
@@ -13,9 +17,11 @@
 }
 
 .container{
-  width: 1150px;
+  width: 100%;
+  max-width: 1150px;
   margin-inline: auto;
   padding-inline: 20px;
+  overflow: hidden;
 }
 
 .container h1{
@@ -27,6 +33,15 @@
 
 .item-list{
   list-style-type: none;
+}
+
+.item-list a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.item-list:hover {
+  color: grey;
 }
 
 .list{
@@ -56,9 +71,10 @@
   justify-content: center;
   font-weight: 400;
   font-size: 16px;
-  padding-inline: 300px;
+  padding-inline: 25%;
   padding-bottom: 100px;
   margin: 0;
+  color: #727272;
 }
 
 .about-title{
@@ -78,23 +94,29 @@
   font-size: 16px;
   margin: 0;
   padding-bottom: 65px;
+  overflow: hidden;
 }
 
 .button{
- color: #ffffffff;
+  color: #ffffffff;
   background-color: #34547A;
   border: 0;
   padding-inline: 41px;
   padding-block: 19px 20px;
   margin-bottom: 65px;
+}
 
+button:hover{
+  background-color: #263b57;
 }
 
 .container-work{
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 49px;
+  overflow: hidden;
 }
 
 .item-work{
@@ -103,7 +125,7 @@
   background: left no-repeat url('./images/project-icon.svg');
   padding: 70px;
   font-size: 21px;
-  line-height: 24px;
+  line-height: 24px
 
 }
 
@@ -111,9 +133,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
   height: 250px;
   background-color: #34547A;
   color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+
 }
 
 .how{
@@ -121,10 +147,12 @@
 }
 
 .how-container{
-  width: 1150px;
+  width: 100%;
+  max-width: 1150px;
   height: 1004px;
   margin-inline: auto;
   margin: 0;
+  overflow: hidden;
 }
 
 .how-title{
@@ -142,12 +170,15 @@
   justify-content: center;
   font-weight: 400;
   font-size: 16px;
-  padding-inline: 300px;
+  padding-inline: 25%;
   padding-bottom: 57px;
   margin: 0;
+  color: #727272;
 }
 
 .how-video{
+  width: 100%;
+  height: 600px;
   padding-bottom: 100px;
   margin: 0;
 }
@@ -157,9 +188,10 @@
 }
 
 .footer-container{
-
-  width: 1150px;
+  width: 100%;
+  max-width: 1150px;
   height: 151px;
+  overflow: hidden;
 }
 
 .footer-text{

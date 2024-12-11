@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="normalize.css">
   <link rel="stylesheet" type="text/css" href="model.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,11 +15,11 @@
 <div class="container">
   <nav class="navbar">
   <ol class="list">
-    <li class="item-list">ГОЛОВНА</li>
-    <li class="item-list">ПРО АВТОРА</li>
-    <li class="item-list">ПРОЕКТИ</li>
-    <li class="item-list">ПРОЦЕС</li>
-    <li class="item-list">КОНТАКТИ</li>
+    <li class="item-list"><a href="#">ГОЛОВНА</a></li>
+    <li class="item-list"><a href="#about-scroll">ПРО АВТОРА</a></li>
+    <li class="item-list"><a href="#work-scroll">ПРОЕКТИ</a></li>
+    <li class="item-list"><a href="#how-scroll">ПРОЦЕС</a></li>
+    <li class="item-list"><a href="#contacts-scroll">КОНТАКТИ</a></li>
   </ol>
   </nav>
  <h1 class="item">Дизайн й верстка</h1>
@@ -32,7 +33,7 @@
 </div>
 </header>
 
-<div class="about">
+<div id="about-scroll" class="about">
 <div class="container">
 
   <h2 class="about-title">Про мене</h2>
@@ -43,7 +44,7 @@
 </div>
 </div>
 
-<div class="work">
+<div id="work-scroll" class="work">
     <div class="container-work">
       <div class="item-work">40+ <br> проектів</div>
       <div class="item-work">40+ <br> проектів</div>
@@ -54,7 +55,7 @@
     </div>
   </div>
 
-<div class="how">
+<div id="how-scroll" class="how">
   <div class="container">
   <div class="how-container">
     <h2 class="how-title">Як я працюю</h2>
@@ -62,27 +63,23 @@
       Lorem Ipsum - це текст-"риба", часто використовується в друці й веб-дизайні.
       Lorem Ipsum є стандартною "рибою" для текстів латиницею з початку XVI століття
     </p>
-    <img class="how-video" src="images/vid.png" alt="video">
+
+    <iframe class="how-video" src="https://www.youtube.com/embed/WiR-5swzlvE?si=Aelae40YoiGO3I5t&amp;start=20" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
   </div>
   </div>
 </div>
 
-<div class="footer">
+<div id="contacts-scroll" class="footer">
   <div class="container">
     <div class="footer-container">
  <h3 class="footer-text-name">Іванов Іван</h3>
       <p class="footer-text">(c) 2018. Усі права захищені.</p>
 
-
 </div>
   </div>
 
-
 </div>
-
-
-
 
 </body>
 </html>
