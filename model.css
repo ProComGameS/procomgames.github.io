@@ -17,7 +17,6 @@ html {
 }
 
 .container{
-  width: 100%;
   max-width: 1150px;
   margin-inline: auto;
   padding-inline: 20px;
@@ -33,6 +32,7 @@ html {
 
 .item-list{
   list-style-type: none;
+  color: #34547A;
 }
 
 .item-list a {
@@ -68,6 +68,7 @@ html {
   font-size: 16px;
   margin: 0;
   padding-bottom: 65px;
+  color: #727272;
 }
 
 .about-text2{
@@ -151,7 +152,6 @@ button:hover{
 }
 
 .how-container{
-  width: 100%;
   max-width: 1150px;
   height: 1004px;
   margin-inline: auto;
@@ -193,7 +193,6 @@ button:hover{
 }
 
 .footer-container{
-  width: 100%;
   max-width: 1150px;
   height: 151px;
   overflow: hidden;
