@@ -8,16 +8,18 @@ html {
 }
 
 .header{
+  min-width: 1160px;
   background-color: #EEEFF1;
 }
 
 .about{
+  min-width: 1160px;
   margin-inline: auto;
   background-color: #F9F9F9;
 }
 
 .container{
-  max-width: 1150px;
+  min-width: 1160px;
   margin-inline: auto;
   padding-inline: 20px;
   overflow: hidden;
@@ -93,7 +95,7 @@ html {
 }
 
 .container-about{
-  width: 540px;
+  min-width: 1160px;
   margin-inline: auto;
   font-weight: 400;
   font-size: 16px;
@@ -116,10 +118,10 @@ button:hover{
 }
 
 .container-work{
-  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+  min-width: 1160px;
   gap: 49px;
   overflow: hidden;
 }
@@ -138,7 +140,7 @@ button:hover{
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  min-width: 1160px;
   height: 250px;
   background-color: #34547A;
   color: #FFFFFF;
@@ -149,6 +151,7 @@ button:hover{
 
 .how{
   background-color: #EEEFF1;
+  min-width: 1160px;
 }
 
 .how-container{
@@ -156,6 +159,7 @@ button:hover{
   height: 1004px;
   margin-inline: auto;
   margin: 0;
+  min-width: 1160px;
   overflow: hidden;
 }
 
@@ -190,11 +194,12 @@ button:hover{
 
 .footer{
   background-color: #34547A;
+  min-width: 1160px;
 }
 
 .footer-container{
-  max-width: 1150px;
   height: 151px;
+  min-width: 1160px;
   overflow: hidden;
 }
 
@@ -210,4 +215,16 @@ button:hover{
   padding-top: 50px;
   margin: 0;
   color: #FFFFFF;
+}
+
+.padding-header{
+  padding-left: 20%;
+}
+
+.margin-header{
+  margin-left: 20%;
+}
+
+.padding-how{
+  padding-left: 20%;
 }
