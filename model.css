@@ -547,6 +547,13 @@ button:hover{
     padding-right: 10%;
   }
 
+  .footer-text{
+    padding-left: 5%;
+  }
+
+  .footer-text-name{
+    padding-left: 5%;
+  }
 
 }
 
@@ -597,5 +604,12 @@ button:hover{
 
   }
 
+  .footer-text{
+  padding-left: 15%;
+  }
+
+  .footer-text-name{
+    padding-left: 15%;
+  }
 
 }
