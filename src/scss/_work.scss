@@ -1,0 +1,38 @@
+
+$white:#FFFFFF;
+$grey-bg: #EEEFF1;
+$grey: #727272;
+$darkblue: #34547A;
+
+
+.container-work{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1160px;
+  gap: 49px;
+  overflow: hidden;
+}
+
+.item-work{
+  width: 141px;
+  height: 50px;
+  background: left no-repeat url('assets/images/project-icon.svg');
+  padding: 70px;
+  font-size: 21px;
+  line-height: 24px
+
+}
+
+.work{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 1160px;
+  height: 250px;
+  background-color: $darkblue;
+  color: $white;
+  margin: 0;
+  padding: 0;
+
+}
