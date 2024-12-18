@@ -1,3 +1,10 @@
+@use "normalize";
+
+$white:#FFFFFF;
+$grey: #727272;
+$darkblue: #34547A;
+
+
 html {
   scroll-behavior: smooth;
 }
@@ -9,13 +16,13 @@ html {
 
 .header{
   min-width: 1160px;
-  background-color: #EEEFF1;
+  background-color: $white;
 }
 
 .about{
   min-width: 1160px;
   margin-inline: auto;
-  background-color: #F9F9F9;
+  background-color: $white;
 }
 
 .container{
@@ -34,7 +41,7 @@ html {
 
 .item-list{
   list-style-type: none;
-  color: #34547A;
+  color: $darkblue;
 }
 
 .item-list a {
@@ -43,7 +50,7 @@ html {
 }
 
 .item-list:hover {
-  color: grey;
+  color: $grey;
 }
 
 .list{
@@ -70,7 +77,7 @@ html {
   font-size: 16px;
   margin: 0;
   padding-bottom: 65px;
-  color: #727272;
+  color: $grey;
 }
 
 .about-text2{
@@ -81,7 +88,7 @@ html {
   padding-inline: 25%;
   padding-bottom: 100px;
   margin: 0;
-  color: #727272;
+  color: $grey;
 }
 
 .about-title{
@@ -105,8 +112,8 @@ html {
 }
 
 .button{
-  color: #ffffffff;
-  background-color: #34547A;
+  color: $white;
+  background-color: $darkblue;
   border: 0;
   padding-inline: 41px;
   padding-block: 19px 20px;
@@ -114,7 +121,7 @@ html {
 }
 
 button:hover{
-  background-color: #263b57;
+  background-color: $darkblue;
 }
 
 .container-work{
@@ -142,15 +149,15 @@ button:hover{
   align-items: center;
   min-width: 1160px;
   height: 250px;
-  background-color: #34547A;
-  color: #FFFFFF;
+  background-color: $darkblue;
+  color: $white;
   margin: 0;
   padding: 0;
 
 }
 
 .how{
-  background-color: #EEEFF1;
+  background-color: $white;
   min-width: 1160px;
 }
 
@@ -181,7 +188,7 @@ button:hover{
   padding-inline: 25%;
   padding-bottom: 57px;
   margin: 0;
-  color: #727272;
+  color: $grey;
 }
 
 .how-video{
@@ -193,7 +200,7 @@ button:hover{
 }
 
 .footer{
-  background-color: #34547A;
+  background-color: $darkblue;
   min-width: 1160px;
 }
 
@@ -206,7 +213,7 @@ button:hover{
 .footer-text{
   margin: 0;
   padding-top: 20px;
-  color: #FFFFFF;
+  color: $white;
   font-size: 13px;
   line-height: 21px;
 }
@@ -214,7 +221,7 @@ button:hover{
 .footer-text-name{
   padding-top: 50px;
   margin: 0;
-  color: #FFFFFF;
+  color: $white;
 }
 
 .padding-header{
