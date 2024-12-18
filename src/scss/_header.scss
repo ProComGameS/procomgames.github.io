@@ -3,6 +3,7 @@ $white:#FFFFFF;
 $grey-bg: #EEEFF1;
 $grey: #727272;
 $darkblue: #34547A;
+$grey-bt: #263b57;
 
 
 .header{
@@ -10,19 +11,20 @@ $darkblue: #34547A;
   background-color: $grey-bg;
 }
 
-.item-list{
+.item-list {
   list-style-type: none;
   color: $darkblue;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  &:hover {
+    color: $grey;
+  }
 }
 
-.item-list a {
-  color: inherit;
-  text-decoration: none;
-}
-
-.item-list:hover {
-  color: $grey;
-}
 
 .list{
   display: flex;
@@ -51,7 +53,7 @@ $darkblue: #34547A;
   color: $grey;
 }
 
-.button{
+@mixin button-style{
   color: $white;
   background-color: $darkblue;
   border: 0;
@@ -60,9 +62,14 @@ $darkblue: #34547A;
   margin-bottom: 65px;
 }
 
-button:hover{
-  background-color: $darkblue;
+.button{
+ @include button-style;
+
+  &:hover{
+  background-color: $grey-bt;
+  }
 }
+
 
 .padding-header{
   padding-left: 20%;

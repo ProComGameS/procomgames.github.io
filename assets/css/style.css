@@ -161,12 +161,10 @@ template{
   list-style-type:none;
   color:#34547A;
 }
-
 .item-list a{
   color:inherit;
   text-decoration:none;
 }
-
 .item-list:hover{
   color:#727272;
 }
@@ -214,9 +212,8 @@ template{
   padding-block:19px 20px;
   margin-bottom:65px;
 }
-
-button:hover{
-  background-color:#34547A;
+.button:hover{
+  background-color:#263b57;
 }
 
 .padding-header{

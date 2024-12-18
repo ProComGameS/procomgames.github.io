@@ -1,7 +1,21 @@
 
+@mixin media-query($min: null, $max: null) {
+  @if $min and $max {
+    @media (min-width: #{$min}) and (max-width: #{$max}) {
+      @content;
+    }
+  } @else if $min {
+    @media (min-width: #{$min}) {
+      @content;
+    }
+  } @else if $max {
+    @media (max-width: #{$max}) {
+      @content;
+    }
+  }
+}
 
-
-@media (min-width: 375px) and (max-width: 499px) {
+@include media-query(375px, 499px) {
   .header{
     min-width: 375px;
 
@@ -67,7 +81,7 @@
 
 }
 
-@media (min-width: 500px) and (max-width: 599px) {
+@include media-query(500px, 599px) {
 
   .header{
     min-width: 500px;
@@ -136,7 +150,7 @@
 
 }
 
-@media (min-width: 600px) and (max-width: 799px) {
+@include media-query(600px, 799px){
   .header{
     min-width: 600px;
 
@@ -202,7 +216,7 @@
   }
 }
 
-@media (min-width: 800px) and (max-width: 1145px) {
+@include media-query(800px, 1145px) {
 
   .header{
     min-width: 800px;
@@ -271,7 +285,7 @@
 
 }
 
-@media (min-width: 1146px) and (max-width: 1180px){
+@include media-query(1146px, 1180px){
 
   .header{
     min-width: 1146px;
@@ -328,7 +342,7 @@
 
 }
 
-@media (min-width: 1181px) and (max-width: 1600px){
+@include media-query(1181px, 1600px){
 
   .header{
     min-width: 1181px;
