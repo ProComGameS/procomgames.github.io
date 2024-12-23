@@ -1,0 +1,9 @@
+.el-primo{
+    transition: transform 0.3s, fill 0.3s, stroke 0.3s;
+}
+
+.el-primo:hover{
+    stroke: deepskyblue;
+    fill: tomato;
+    transform: translateY(40px);
+}
