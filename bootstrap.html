@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <title>Bootstrap practice</title>
+</head>
+<body>
+<div class="container">
+
+    <div class="row">
+        <div class="col-md-9 order-md-1 col-12 d-flex justify-content-center">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">Tour de Internacionale</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacts</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Locations
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="#">Kyiv</a>
+                                <a class="dropdown-item" href="#">Lviv</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Berlin</a>
+                                <a class="dropdown-item" href="#">Rome</a>
+                                <a class="dropdown-item" href="#">Milan</a>
+                                <a class="dropdown-item" href="#">London</a>
+                                <a class="dropdown-item" href="#">Paris</a>
+                                <a class="dropdown-item" href="#">Warsaw</a>
+                                <a class="dropdown-item" href="#">Wien</a>
+                                <a class="dropdown-item" href="#">Madrid</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+
+
+    <div class="row">
+        <div class="col-md-3 order-md-1 col-12">
+            <div id="carouselAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://th.bing.com/th/id/OSK.HEROLlBEKDflYJUymyV5GZQ_cIGOZb7PSHDcG2c7CuvqpqA?rs=1&pid=ImgDetMain" class="d-block w-100" alt="Kyiv">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://th.bing.com/th/id/OSK.HEROR4Iw6fPFHaBSu-TMdb1OCqOEWrRn1wRhK363xW5RaXo?rs=1&pid=ImgDetMain" class="d-block w-100" alt="Lviv">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://media.gettyimages.com/id/503874284/photo/berlin-skyline-with-spree-river-at-sunset-germany.jpg?b=1&s=170667a&w=0&k=20&c=XEIBnQAGvv3_vwJn25Gr-3TGaPcKiVO7DrZbHZuwDvs=" class="d-block w-100" alt="Berlin">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://media.gettyimages.com/id/539115110/photo/colosseum-in-rome-and-morning-sun-italy.jpg?b=1&s=170667a&w=0&k=20&c=pV6pleAH30v-wOZxCpeRZ4kVGnd6-Ycqs_POyUC_1Jo=" class="d-block w-100" alt="Rome">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Galleria_Milano_%28179532365%29.jpeg/153px-Galleria_Milano_%28179532365%29.jpeg" class="d-block w-100" alt="Milan">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://th.bing.com/th?id=OSK.HEROq6m82RUhPyZWEpTCyz4CcKfOQ7NhSNaDFuzmbQp1pkI&w=472&h=280&c=13&rs=2&o=6&oif=webp&pid=SANGAM" class="d-block w-100" alt="London">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://th.bing.com/th?id=OSK.HERO6I_8K_6b6XPugih838-KLd-mlSWkELPfp6eaV3CXjQM&w=472&h=280&c=13&rs=2&o=6&oif=webp&pid=SANGAM" class="d-block w-100" alt="Paris">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://th.bing.com/th?id=OSK.HEROESiRRsZvu61jV82EDB158Bu1nFOfCyk4FhAQdHZBNO0&w=312&h=200&c=15&rs=2&o=6&pid=SANGAM" class="d-block w-100" alt="Warsaw">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Collage_von_Wien.jpg/300px-Collage_von_Wien.jpg" class="d-block w-100" alt="Wien">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://th.bing.com/th?id=OSK.HEROAOSipD5oqtXSxXP1Z2M33uykjQtbagAkf3CSlFXUW9A&w=472&h=280&c=1&rs=2&o=6&pid=SANGAM" class="d-block w-100" alt="Madrid">
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-target="#carouselAutoplaying" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-target="#carouselAutoplaying" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <div class="col-md-6 order-md-2 col-12 d-flex justify-content-center align-items-center">
+
+            <div class="accordion" id="accordionExample">
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Kyiv
+                            </button>
+                        </h2>
+                    </div>
+
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                        <div class="card-body">
+                            Kyiv (also Kiev)[a] is the capital and most populous city of Ukraine. It is in north-central Ukraine along the Dnieper River.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Lviv
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                        <div class="card-body">
+                            Lviv (/ləˈviːv/ lə-VEEV or /ləˈviːf/ lə-VEEF; Ukrainian: Львів [ˈlʲwiu̯] ⓘ; see below for other names) is the largest city in western Ukraine, as well as the sixth-largest city in Ukraine, with a population of 717,500 (2022 estimate).
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Berlin
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                        <div class="card-body">
+                            Berlin (/bɜːrˈlɪn/ bur-LIN; German: [bɛʁˈliːn] ⓘ)[10] is the capital and largest city of Germany, by both area and population.[11] With over 3.85 million inhabitants,[12] it has the highest population within its city limits of any city in the European Union.
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="card">
+                    <div class="card-header" id="headingFour">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                Rome
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                        <div class="card-body">
+                            Rome (Italian and Latin: Roma, pronounced [ˈroːma] ⓘ) is the capital city of Italy. It is also the capital of the Lazio region, the centre of the Metropolitan City of Rome Capital, and a special comune (municipality) named Comune di Roma Capitale. With 2,860,009 residents in 1,285 km2 (496.1 sq mi),[2] Rome is the country's most populated comune and the third most populous city in the European Union by population within city limits.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header" id="headingFive">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                Milan
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                        <div class="card-body">
+                            Milan (/mɪˈlæn/ mil-AN, US also /mɪˈlɑːn/ mil-AHN,[5][6] Milanese: [miˈlãː] ⓘ; Italian: Milano [miˈlaːno] ⓘ) is a city in northern Italy, regional capital of Lombardy, the largest city in Italy by urban population[7] and the second-most-populous city proper in Italy after Rome.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header" id="headingSix">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                London
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+                        <div class="card-body">
+                            London[c] is the capital and largest city[d] of both England and the United Kingdom, with a population of 8,866,180 in 2022.[2] Its wider metropolitan area is the largest in Western Europe, with a population of 14.9 million.
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="card-header" id="headingSeven">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                Paris
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
+                        <div class="card-body">
+                            Paris (French pronunciation: [paʁi] ⓘ) is the capital and largest city of France. With an estimated population of 2,102,650 residents in January 2023[2] in an area of more than 105 km2 (41 sq mi),[5] Paris is the fourth-most populous city in the European Union, the ninth-most populous city in Europe and the 30th most densely populated city in the world in 2022.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header" id="headingEight">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                Warsaw
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordionExample">
+                        <div class="card-body">
+                            Warsaw,[a] officially the Capital City of Warsaw,[8][b] is the capital and largest city of Poland. The metropolis stands on the River Vistula in east-central Poland. Its population is officially estimated at 1.86 million residents within a greater metropolitan area of 3.27 million residents, which makes Warsaw the 7th most-populous city in the European Union.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header" id="headingNine">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                                Wienna
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordionExample">
+                        <div class="card-body">
+                            Vienna (/viˈɛnə/ ⓘ vee-EN-ə;[8][9] German: Wien [viːn] ⓘ; Austro-Bavarian: Wean [veɐ̯n]) is the capital, most populous city, and one of nine federal states of Austria. It is Austria's primate city, with just over two million inhabitants.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header" id="headingTen">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                                Madrid
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordionExample">
+                        <div class="card-body">
+                            Madrid (/məˈdrɪd/ ⓘ mə-DRID; Spanish: [maˈðɾið] ⓘ)[n. 1] is the capital and most populous municipality of Spain. It has almost 3.4 million[10] inhabitants and a metropolitan area population of approximately 7 million. It is the second-largest city in the European Union (EU), and its monocentric metropolitan area is the second-largest in the EU.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        </div>
+        <div class="col-md-3 order-md-3 col-12 d-flex justify-content-end">
+            <form>
+                <div class="mb-3">
+                    <label for="InputEmail" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.(not really)</div>
+                </div>
+
+                <div class="mb-3">
+                    <label for="InputPhone" class="form-label">Phone Number</label>
+                    <input type="tel" class="form-control" id="InputPhone" aria-describedby="PhoneHelp">
+                    <div id="PhoneHelp" class="form-text"></div>
+                </div>
+
+                <div class="mb-3">
+                    <label for="InputAddress" class="form-label">Address</label>
+                    <input type="text" class="form-control" id="InputAddress">
+                </div>
+
+                <div class="mb-3">
+                    <label for="InputZip" class="form-label">ZIP</label>
+                    <input type="text" class="form-control" id="InputZip">
+                </div>
+
+                <div class="mb-3">
+                    <label for="InputPassword" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="InputPassword">
+                </div>
+
+
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="Check">
+                    <label class="form-check-label" for="Check">Agree to terms and conditions.</label>
+                </div>
+                <button type="submit" class="btn btn-secondary">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-15 order-md-5 col-12 d-flex justify-content-center">
+            <div class="card">
+                <div class="card-header">
+                    Featured
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Special Tours</h5>
+                    <p class="card-text">Reserve today!</p>
+                    <a href="#" class="btn btn-primary">Store</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
