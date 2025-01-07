@@ -6,10 +6,14 @@
     padding: 0;
 }
 
-.fixed-container{
-    width: 40%;
-    height: 40%;
+.move-right {
+    animation: moveRight 35s linear infinite;
 }
+
+.move-left {
+    animation: moveLeft 35s linear infinite;
+}
+
 
 /* styles/main.css */
 .bg-map {
@@ -21,7 +25,6 @@
     width: 100%;
 
 }
-
 
 .colorful-text
 {
@@ -53,7 +56,6 @@
 }
 
 
-
 @keyframes scale {
     100% {
         transform: scale(1);
@@ -80,12 +82,28 @@ span:nth-child(3) {
 
 
 
-
-
-
 @keyframes fade-in {
     100% {
         opacity: 1;
         filter: blur(0);
     }
+}
+
+@keyframes moveRight {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(100vw);
+    }
+}
+
+@keyframes moveLeft {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(-100vw);
+    }
+
 }
