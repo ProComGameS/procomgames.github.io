@@ -11,15 +11,15 @@
     <nav>
         <h1 class="flex justify-center colorful-text">TestyMaps</h1>
         <ul class="flex flex-row space-x-3 justify-center">
-        <li><a href="#" class="hover:text-blue-500">Home</a></li>
-        <li><a href="#" class="hover:text-red-700">About</a></li>
-        <li><a href="#" class="hover:text-orange-500">Help(FAQ)</a></li>
-        <li><a href="#" class="hover:text-purple-700">Map</a></li>
+        <li><a href="#main" class="hover:text-blue-500">Home</a></li>
+        <li><a href="#about" class="hover:text-red-700">About</a></li>
+        <li><a href="#faq" class="hover:text-orange-500">Help(FAQ)</a></li>
+        <li><a href="#" class="hover:text-purple-700">Map(W.I.P)</a></li>
         </ul>
     </nav>
 </div>
 
-<div class=" mx-auto bg-cover bg-center h-screen bg-map">
+<div id="main" class=" mx-auto bg-cover bg-center h-screen bg-map">
     <h1 class="anim-text whitespace-pre-line text-center p-40 text-5xl font-bold w-500px">
         <span class="pr-64 pb-14">Explore</span>
         <span class=" pb-14">Find</span>
@@ -32,7 +32,7 @@
 
 </div>
 
-<div class="min-h-screen flex items-center justify-center flex-col space-y-4">
+<div id="about" class="min-h-screen flex items-center justify-center flex-col space-y-4">
 
     <div class="flex flex-col justify-center items-center pb-32 move-left self-end">
         <img src="images/cloud-icon.svg" alt="map-icon" class="w-12 h-12 object-cover flex justify-center" >
@@ -70,42 +70,49 @@
 </div>
 
 
-<div class="min-h-screen flex items-center justify-center flex-col space-y-4 bg-gray-200">
+<div id="faq" class="min-h-screen flex items-center justify-center flex-col space-y-4 bg-gray-200">
 
-    <h1 class="font-bold text-2xl bg-white rounded-lg transform -translate-y-44">Frequently asked questions.</h1>
+    <h1 class="font-bold text-2xl bg-white rounded-lg transform xl:-translate-y-44">Frequently asked questions.</h1>
 
-<div class="grid grid-cols-3 gap-32">
+<div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-32">
 
     <div class="bg-amber-300 rounded-md shadow">
 
-        <h1 class="font-bold text-2xl flex justify-center items-center">Any device, any browser, any time.</h1>
-        <h2 class="text-lg whitespace-pre-line text-center">Available on any device with an internet connection
-            and a browser, such as Android smartphones,
-            iPhones, Windows PCs, Linux computers, and Macs.
-            Whether you're using Chrome, Safari, Firefox, or Edge,
-            you can easily access it anywhere, anytime.</h2>
+        <h1 class="font-bold text-2xl flex justify-center items-center">Can I help contributing data?</h1>
+        <h2 class="text-lg whitespace-pre-line text-center">
+            Sure, you can definitely contribute data!
+            However, it's important to understand
+            that the data you provide will undergo
+            a verification process.
+            This means the information won't appear instantly.
+            </h2>
 
     </div>
 
     <div class="bg-orange-300 rounded-md shadow">
 
-        <h1 class="font-bold text-2xl flex justify-center items-center">Any device, any browser, any time.</h1>
-        <h2 class="text-lg whitespace-pre-line text-center">Available on any device with an internet connection
-            and a browser, such as Android smartphones,
-            iPhones, Windows PCs, Linux computers, and Macs.
-            Whether you're using Chrome, Safari, Firefox, or Edge,
-            you can easily access it anywhere, anytime.</h2>
+        <h1 class="font-bold whitespace-pre-line text-2xl flex justify-center items-center">Why do some cities
+            have special marks
+            while others are missing them?
+            Are there any priorities?</h1>
+        <h2 class="text-lg whitespace-pre-line text-center">Cities receive new data with each new expansion.
+            The priorities for expansions are determined
+            by city popularity, data availability,
+            and user contributions.
+            This ensures that every expansion
+            is both realistic and well-executed.</h2>
 
     </div>
 
     <div class="bg-orange-400 rounded-md shadow">
 
-        <h1 class="font-bold text-2xl flex justify-center items-center">Any device, any browser, any time.</h1>
-        <h2 class="text-lg whitespace-pre-line text-center">Available on any device with an internet connection
-            and a browser, such as Android smartphones,
-            iPhones, Windows PCs, Linux computers, and Macs.
-            Whether you're using Chrome, Safari, Firefox, or Edge,
-            you can easily access it anywhere, anytime.</h2>
+        <h1 class="font-bold text-2xl flex justify-center items-center">How do recommended places work?</h1>
+        <h2 class="text-lg whitespace-pre-line text-center">Users can recommend places
+            they think are worth visiting.
+            These recommendations are based
+            on factors such as price, quality, and popularity.
+            If a place is truly worthwhile,
+            it will eventually be displayed on the map.</h2>
 
     </div>
 
