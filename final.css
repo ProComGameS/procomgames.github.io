@@ -1,0 +1,17 @@
+
+.header-link{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.header-button-white{
+    border: black solid 1px;
+    padding: 10px 35px 10px 35px;
+}
+
+.header-button-orange{
+    border: #ff4c00 solid 1px;
+    padding: 10px 35px 10px 35px;
+}
