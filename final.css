@@ -15,3 +15,15 @@
     border: #ff4c00 solid 1px;
     padding: 10px 35px 10px 35px;
 }
+
+.bg-cl-companies{
+    background-color: #FF9C7D;
+}
+
+.bg-cl-localize{
+    background-color: #FFF8E4;
+}
+
+.custom-container{
+    max-width: 275px;
+}
