@@ -1,3 +1,6 @@
+body{
+    overflow-x: hidden;
+}
 
 .header-link{
     text-decoration: none;
@@ -24,6 +27,28 @@
     background-color: #FFF8E4;
 }
 
-.custom-container{
-    max-width: 275px;
+.bg-cl-revolut{
+    background-color: #C9E8F2;
+}
+
+.bg-cl-rate{
+    background-color: #DABC98;
+}
+
+.bg-cl-orange{
+    background-color: #FF9C7D;
+}
+
+.vertical-stick {
+    width: 2px;
+    height: 75px;
+    background-color: black;
+    margin: 20px auto;
+}
+
+.horizontal-stick {
+    width: 90vw;
+    height: 1px;
+    background-color: black;
+    margin: 20px auto;
 }
